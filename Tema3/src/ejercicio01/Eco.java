@@ -1,4 +1,4 @@
-package src;
+package ejercicio01;
 
 public class Eco {
 
