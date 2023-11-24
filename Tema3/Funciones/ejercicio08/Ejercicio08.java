@@ -1,20 +1,24 @@
-package ejercicio01;
+package ejercicio08;
 
 import java.util.Scanner;
 
-public class ejercicio1 {
+import ejercicio07.Primo;
+
+public class Ejercicio08 {
 
 	public static void main(String[] args) {
 		// Variables
 		Scanner sc = new Scanner(System.in);
-		
 		int n;
-		//pedir núemro de repeticiones al usuario
+		
 		System.out.print("Introduce un número: ");
 		n = sc.nextInt();
-		//Salida de la función
-		Eco.eco(n);
+		Primo.esPrimo(n);
+		System.out.println(DivPrimos.divPrimos(n));
 		sc.close();
+		
+		
+
 	}
 
 }
