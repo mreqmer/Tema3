@@ -15,6 +15,7 @@ public class Ejercicio05 {
 		//llama a la función para mostrar la tabla de multiplicar
 		Tabla.tabla(n);
 		
+		
 		sc.close();
 	}
 
